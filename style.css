@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+.guess-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.alert-box {
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+.guess-button {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 2em;
+}
+
+.word-input {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 3em;
+    height: 60px;
+    width: 400px;
+}
+
+.guess-box {
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+}
+
+.guess-box div {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    margin: 2px;
+    width: 60px;
+}
+
+.red {
+    background-color: #d88;
+}
+
+.yellow {
+    background-color: #ee5;
+}
+
+.green {
+    background-color: #5b5;
+}
